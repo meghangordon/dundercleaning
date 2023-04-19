@@ -1,0 +1,600 @@
+
+html {
+position: relative;
+width: 1256px;
+height: 1024px;
+left: 0px;
+top: 0px;
+background: #51ADE5;
+margin-left: auto;
+margin-right: auto;
+font-family: Hepta Slab;
+}
+
+
+
+/* --------------------------------------------NAVBAR - ALL PAGES --------------------------------------------------*/
+.Navbar {
+position: absolute;
+width: auto;
+height: 108px;
+left: 8px;
+top: 25px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Navbar-line {
+position: absolute;
+width: auto;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 90px;
+border: 2px solid #417AC6;
+}
+
+.Navbar li {
+float: left;
+padding: 0 10px;
+font-size: 14px;
+border-right: 1px ;
+width: 187px;
+height: 41px;
+font-family: 'Hepta Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+list-style-type: none;
+}
+
+/* NAVBAR hyperlink color */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+} 
+
+.Navbar li:last-child {
+    border-right: none;
+}
+
+/* ----------------------------------------------------HOME PAGE------------------------------------------------------*/
+
+/* HOME PAGE - DUNDER CLEANING SERVICE TEXT BOX */
+
+.dunder-header {
+    position: absolute;
+    width: 736px;
+    height: 56px;
+    left: 268px;
+    top: 200px;
+    display: inline;
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #E9A95F;
+    letter-spacing: 2px;
+}
+
+/* HOME PAGE - LINE UNDER DCS */
+.line2 {
+    position: absolute;
+    width: 1114px;
+    height: 0px;
+    left: 71px;
+    top: 280px;
+    border: 1px solid #417AC6;
+
+}
+
+/* HOME PAGE - OFFICE CLEANING | OFFICE SET UP | ORGANIZATION TEXT BOX*/
+.dunder-servicesummary {
+    position: absolute;
+    width: 1155px;
+    height: 56px;
+    left: 39px;
+    top: 300px;
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.imagecard1{
+    position: absolute;
+    width: 501px;
+    height: 523px;
+    left: 676px;
+    top: 400px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.textbox1{
+    position: absolute;
+    width: 488px;
+    height: 279px;
+    left: 123px;
+    top: 418px;
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    word-spacing: 2px;
+    word-spacing: 2px;
+}
+
+/* ---------------------------------------------ESTIMATES/CONTACT PAGE------------------------------------------------------*/
+
+.estimateheader {
+    position: absolute;
+    width: 850px;
+    height: 10px;
+    left: 210px;
+    top: 100px;
+    font-size: 40px;
+
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    text-align: center;
+
+    color: #E9A95F;
+}
+
+
+
+/* ESTIMATES PAGE TEXT BOXES */
+input{
+    width: 100%;
+    height: 100%;
+    font-family: "Hepta Slab";
+    border-color: #51ADE5;
+    border-radius: 10px;
+}
+
+.form-container {
+    position: absolute;
+    max-width: 600px;
+    padding: 1vw;
+    background-color: #417AC6;
+    top: 400px;
+    left: 300px;
+}
+
+.form-container input[type=text] {
+    width: auto;
+    padding: .93vw;
+    margin: .6vw 0 .6vw 0;
+    border: none;
+    background: whitesmoke;
+    font-size: 1vw;
+} 
+
+button {
+    font-family: 'Hepta Slab';
+    letter-spacing: .3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 1.5vw;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+button:hover, .form-container .btn:hover {
+    color: white;
+    background-color: #C4A286;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    border-color: #0f4444;
+}
+
+.form-container .btn {
+    background-color: #E9A95F;
+    color: white;
+    border-color: #E9A95F;
+    margin-bottom: 1vh;
+}
+
+.form-container .cancel {
+    background-color: #51ADE5;
+    color: #417AC6;
+    border-color: #51ADE5;
+}
+
+.form-container .cancel:hover {
+    color: white;
+    background-color: #E9A95F;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    border-color: #E9A95F
+}
+
+
+
+
+/* --------------------------------------------------Service Cards -------------------------------------------*/
+
+.headline {
+    position: absolute;
+    text-align: center;
+    color: #E9A95F;
+    margin-top: 120px;
+    left: 430px;
+    font-family: 'Hepta Slab';
+}
+
+.headlinesum {
+    text-align: center;
+    color: #E9A95F;
+    font-family: 'Hepta Slab';
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+/* JIM & PAM */
+.jpimage {
+    width: 100%;
+    height: auto;
+}
+
+.jpoverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E9A95F;
+    border-radius:20px;
+}
+
+.jpcontainer:hover .jpoverlay {
+    opacity: 1;
+}
+
+.jptext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;    
+}
+
+.jpcontainer {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    height: 300px;
+    width: 280px;
+    top: 300px;
+    left: 150px;
+    border-radius:20px;
+}
+/* END JIM & PAM */
+
+/* THE KEVIN */
+
+.kimage {
+    width: 100%;
+    height: auto;
+}
+
+.koverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E9A95F;
+    border-radius:20px;
+}
+
+.kcontainer:hover .koverlay {
+    opacity: 1;
+}
+
+.ktext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;    
+}
+
+.kcontainer {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    height: 300px;
+    width: 280px;
+    top: 300px;
+    left: 460px;
+    border-radius:20px;
+}
+
+/* END THE KEVIN */
+
+/* THE MICHEAL */
+.mimage {
+    width: 100%;
+    height: auto;
+}
+
+.moverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E9A95F;
+    border-radius:20px;
+}
+
+.mcontainer:hover .moverlay {
+    opacity: 1;
+}
+
+.mtext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;    
+}
+
+.mcontainer {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    height: 300px;
+    width: 280px;
+    top: 300px;
+    left: 770px;
+    border-radius:20px;
+}
+
+
+/* The Angela*/
+
+.aimage {
+    width: 100%;
+    height: auto;
+}
+
+.aoverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E9A95F;
+    border-radius:20px;
+}
+
+.acontainer:hover .aoverlay {
+    opacity: 1;
+}
+
+.atext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;    
+}
+
+.acontainer {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    height: 300px;
+    width: 280px;
+    top: 625px;
+    left: 150px;
+    border-radius:20px;
+}
+
+
+
+/* The Dwight*/
+
+.dimage {
+    width: 100%;
+    height: auto;
+}
+
+.doverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E9A95F;
+    border-radius:20px;
+}
+
+.dcontainer:hover .doverlay {
+    opacity: 1;
+}
+
+.dtext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;    
+}
+
+.dcontainer {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    height: 300px;
+    width: 280px;
+    top: 625px;
+    left: 460px;
+    border-radius:20px;
+}
+
+/* The Temp */ 
+
+.timage {
+    width: 100%;
+    height: auto;
+}
+
+.toverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E9A95F;
+    border-radius:20px;
+}
+
+.tcontainer:hover .toverlay {
+    opacity: 1;
+}
+
+.ttext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;    
+}
+
+.tcontainer {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    height: 300px;
+    width: 280px;
+    top: 625px;
+    left: 770px;
+    border-radius:20px;
+}
+
+
+/*-----------------------------------CALENDLY SCHEDULER----------------*/
+
+.calendly-inline-widget {
+    position: absolute;
+    top: 50px;
+}
+
+
+
+/*-----------------------------------FOOTER----------------*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 1256px;
+    height: 80px;
+    background-color: #417AC6; 
+    text-align: center;
+
+    
+  }

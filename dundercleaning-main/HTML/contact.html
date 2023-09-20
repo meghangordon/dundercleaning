@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dunder Cleaning Service</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/dundercleaning-main/CSS/home.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300&display=swap');
+        </style>
+
+    </head>
+    <!-- Navbar -->
+    <nav class="Navbar">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><img src="/dundercleaning-main/Images/dundercleaningservicelogo.png" width="200" height="60" class="d-inline-block align-top" alt="Dunder Cleaning Service Logo"></li>
+    </nav>
+    <div class="Navbar-line"></div>
+    <!--notebook contact submission form-->
+    <body>
+        
+        <div class="contactcontainer">
+            <h3>Have a question? Send your Dunder Crew a message for further information!</h3>
+            <div class="notepad">
+                <h2>Contact Us</h2>
+                <form action="https://formspree.io/f/mdovpwwg" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="phonenumber">Phone number:</label>
+                        <input type="tel" id="phonenumber" name="phonenumber">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" onclick="alert('Thank you for your message, we will get back to you as soon as we are able to!')">
+                </form>
+            </div>
+        </div>
+    </body>
+
+<footer>
+    <p>Dunder Cleaning Service, LLC | Licensed and Bonded UBID #605306856</p>
+    <p><a href="mailto:amie@dundercleaningservice.com">amie@dundercleaningservice.com</a></p>
+  </footer>
+</html>
